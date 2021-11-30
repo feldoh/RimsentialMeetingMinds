@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>RMM_DiplomaticVisit</defName>
+    <label>diplomatic visit</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>RimsentialMeetingMinds.IncidentWorker_DiplomaticVisit</workerClass>
+    <category>FactionArrival</category>
+    <baseChance>0</baseChance>
+    <pointsScaleable>true</pointsScaleable>
+    <requireColonistsPresent>True</requireColonistsPresent>
+  </IncidentDef>
+
+</Defs>
