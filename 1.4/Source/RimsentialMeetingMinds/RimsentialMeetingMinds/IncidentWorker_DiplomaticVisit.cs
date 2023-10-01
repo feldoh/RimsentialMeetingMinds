@@ -1,20 +1,11 @@
-﻿using JetBrains.Annotations;
+﻿using System.Collections.Generic;
 using RimWorld;
-using RimWorld.Planet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
 using Verse;
-using Verse.AI.Group;
-using Verse.AI;
-using GuestUtility = Hospitality.Utilities.GuestUtility;
-using Hospitality;
-using Hospitality.Utilities;
+using IncidentWorker_VisitorGroup = Hospitality.IncidentWorker_VisitorGroup;
 
 namespace RimsentialMeetingMinds
 {
-    public class IncidentWorker_DiplomaticVisit : Hospitality.IncidentWorker_VisitorGroup
+    public class IncidentWorker_DiplomaticVisit : IncidentWorker_VisitorGroup
     {
         public override IEnumerable<Pawn> GenerateNewPawns(IncidentParms parms, int preferredAmount)
         {
@@ -22,6 +13,7 @@ namespace RimsentialMeetingMinds
             {
                 yield return pawn;
             }
+
             yield return parms.faction.leader;
         }
     }
