@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <RMM.InviteForVisit>Invite for diplomatic visit</RMM.InviteForVisit>
+    <RMM.WillVisit>{LEADER_nameDef} of faction {FACTION_name} will visit you in {2} days.</RMM.WillVisit>
+    <RMM.AlreadyVisiting>Already visiting</RMM.AlreadyVisiting>
+    <RMM.DiplomaticVisitUpcoming>Diplomatic visit upcoming</RMM.DiplomaticVisitUpcoming>
+</LanguageData>
